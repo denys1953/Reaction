@@ -1,0 +1,23 @@
+.wrapper {
+   width: 100%;
+   height: 400px;
+   background-color:#084449;
+   cursor: pointer;
+   user-select: none;
+}
+.wrap_s img {
+   padding-top: 100px;
+}
+.wrap_s p {
+   font-size: 35px;
+   padding-top: 40px;
+   color: white;
+   font-weight: bold;
+}
+ul {
+   margin-top: 50px;
+}
+.row {
+   color: white;
+   padding-top: 20px;
+}

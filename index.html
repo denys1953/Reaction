@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+   <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuda</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/	jquery.min.js"></script>
+    <script src="main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
+</head>
+<body>
+   <div class="wrapper">
+      <div class="container-fluid">
+         <div class="wrap_s text-center">
+            <img src="https://mozgion.ru//uploads/puzzles/13/images/reaction-icon.png" alt="">
+            <p>Кликните для старта</p>
+         </div>
+      </div>
+      <div class="container" style="max-width: 600px;">
+         <div class="row text-center">
+            <div id="col_1" class="col-12">Среднее 0 мс</div>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <ul>
+         <li><strong>до 150мс </strong>Превосходно! Можно садиться за штурвал истребителя или болида формулы 1.</li>
+         <li>от <strong>150 - 170мс </strong>Это пять с плюсом! Чемпионы мира по пинг-понгу и боксу смотрят на Вас как на конкурента.</li>
+         <li><strong>от 170 - 190мс </strong>Великолепно! Мастера спорта международного класса одобряют.</li>
+         <li><strong>от 190 - 200мс </strong>Хорошо! Мастер спорта у Вас в кармане.</li>
+         <li><strong>от 200 - 210мс </strong>Неплохо. КМС зачтен.</li>
+         <li><strong>от 210 - 230мс </strong>Нормально. Вы активны, можете лучше.</li>
+         <li><strong>от 230 - 270мс </strong>Средненько. Скорость реакции, как и у большинства людей.</li>
+         <li><strong>от 270 - 350мс </strong>Неуд.</li>
+         <li><strong>от 350 - 500мс </strong>Незачет.</li>
+         <li><strong>от 500 и выше </strong>Вы вообще живы там? Лучше отдохните, попробуйте завтра.
+         </li>
+      </ul>
+   </div>
+</body>
+</html>
